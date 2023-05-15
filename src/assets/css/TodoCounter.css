@@ -1,0 +1,12 @@
+h1 {
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: normal;
+}
+
+h1 span {
+    font-weight: bold;
+}

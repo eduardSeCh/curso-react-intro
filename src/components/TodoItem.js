@@ -4,11 +4,10 @@ import remove from '../assets/imgs/borrar.png'
 export function TodoItem({text, completed}) {
     return (
       <li className="TodoItem">
-        <div className='circle'></div>
-        <span className='Icon Icon-check Icon-check--active'>
+        <span className={`Icon Icon-check ${completed && "Icon-check--active"}`}>
           <img src={check} alt="check" width={18}/>
         </span>
-        <p className='TodoItem-p TodoItem-p--completed'>
+        <p className={`TodoItem-p ${completed && "TodoItem-p--completed"}`} >
           {text}
         </p>
         <span className='Icon Icon-deleted'>

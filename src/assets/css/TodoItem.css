@@ -29,16 +29,15 @@
     width: 48px;
 }
 
-.circle {
+/*.circle {
     position: absolute;
     left: 26px;
     bottom: 22px;
     height: 14px;
     width: 14px;
-    background-color: greenyellow;
     border-radius: 50%;
     border: 2px solid rgb(12, 12, 12);
-}
+}*/
 
 .Icon-check {
     position: absolute;
@@ -48,7 +47,12 @@
 
 .Icon-check--active{
     display: flex;
-    color: greenyellow;
+    background-color: greenyellow;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    left: 26px;
+    bottom: 22px;
 }
 
 .Icon-deleted {
